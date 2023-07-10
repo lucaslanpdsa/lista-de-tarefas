@@ -1,0 +1,63 @@
+body{
+  border: 0;
+  margin: 0;
+  background: radial-gradient(farthest-corner at right top,#4dc42c, #65c68f);
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 50px;
+  padding: 30px 150px;
+  box-sizing: border-box;
+}
+
+.principal{width: 50vw;}
+
+.adicionar {
+  width: 100%;
+}
+
+.adicionar input {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0.5em 0 1em;
+  padding: 1em 0.5em;
+  border-radius: 10px;
+  border: 2px solid #40112D;
+}
+
+.adicionar label {
+  display: block;
+}
+
+.cadastrar {
+  background-color: #40112D;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.titulo{
+  width: 50%;
+  margin: auto ;
+  padding-left: 20%;
+}
+
+.lista {
+  margin: 0;
+  padding: 0;
+  width: 50vw;
+}
+
+.item{
+    padding: 0.6em 2em;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin: 0 0 1em;
+    width: 100%;
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    gap: 1em;
+    font-size: 20px;
+}
+
